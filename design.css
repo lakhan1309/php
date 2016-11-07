@@ -1,0 +1,65 @@
+body{
+	height:100%;
+	overflow:scroll;
+	-webkit-box-sizing:border-box;
+}
+.form-control {
+      display: inline;
+  }
+  textarea {
+      border-style: solid;
+  }
+  .d {
+      width: 200px;
+  }
+    .text {
+      border-bottom: 5px solid #e5e7e8;
+      background-color: #e5e7e8;
+      border-top: 5px solid #e5e7e8;
+      padding-left: 10px;
+  }
+  .setting {
+      padding-right: 10px;
+      float: right;
+      margin-right: 10px;
+  }
+  .glyph {
+      padding-right: 10px;
+  }
+  .code {
+      float: right;
+  }
+
+@media only screen and (min-width : 240px) and (max-width : 768px) {
+
+	.setting{
+		width:100%;
+		margin-right:auto;
+		margin-left:auto;
+		
+		
+		}
+		.d {
+		width: 100%;
+		margin-right:auto;
+		margin-left:auto;
+		margin-bottom:5px;
+		
+		 }
+  textarea{
+	  padding-top:10%;
+  }
+  .text {
+      border-bottom: 40px solid #e5e7e8;
+      background-color: #e5e7e8;
+      border-top: 10px solid #e5e7e8;
+      padding-left: 10px;
+	  padding-right:10px;
+  }
+  .input{
+	  margin-top:5px;
+  }
+
+			
+			
+}
