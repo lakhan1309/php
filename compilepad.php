@@ -63,7 +63,7 @@
 
 	<div class="container">
 		<h1>
-			<i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;<a>Compile Pad</a><i
+			<i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;Compile Pad<i
 				class="fa fa-code  code" aria-hidden="true"></i>
 		
 		<hr>
