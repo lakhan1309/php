@@ -150,25 +150,25 @@
       <div class="row">
         <h3>Meet the Team</h3></br>
         <div class="col-lg-3">
-          <img class="img-circle" src="images/a1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/a1-min.jpg" alt="Generic placeholder image" width="140" height="140">
           <h3>Akash Shukla</h3>
           <!--<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           -->
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-          <img class="img-circle" src="images/l.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/l-min.jpg" alt="Generic placeholder image" width="140" height="140">
           <h3>Lakhan Khandelwal</h3>
           <!--<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           -->
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-          <img class="img-circle" src="images/v.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/v-min.jpg" alt="Generic placeholder image" width="140" height="140">
           <h3>Varun Kumar</h3>
           <!--<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           -->
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-          <img class="img-circle" src="images/d.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="images/d-min.jpg" alt="Generic placeholder image" width="140" height="140">
           <h3>Deepesh Jain</h3>
         <!--  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           -->
