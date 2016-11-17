@@ -26,20 +26,36 @@ $(document).ready(function() {
             }
         }
     });
-    //language change
+      //language change
     $('#language').on('change', function() {
-
+		var default_code;
         var language = document.forms["input_form"]["language"].value;
         if (language == 'text/html') {
             window.location = 'html.php';
         } else {
+				//choosing language and saving into variable 
+				
+			if(language=="text/x-csrc")
+				default_code="c";
+			else if(language=="text/x-c++src")
+				default_code="c++";
+			else if(language=="application/x-httpd-php")
+				default_code="php";
+			else 
+				default_code="python";
+			
+			
+			$.ajax({
+				url:default_code+".txt",
+				success:function(result){
+					editor.setValue(result);
+				}
+			});
+			
             editor.setOption("mode", this.value);
-            editor.setValue("");
+           
         }
-
-
-
-    });
+	});
     //theme change
     $('#theme').on('change', function() {
 
