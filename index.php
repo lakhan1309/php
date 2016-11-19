@@ -60,7 +60,8 @@
                 <li><a href="compilepad.php">IDE</a></li>
                 <li><a href="#fea">Features</a></li>
                 <li><a href="#about">About Us</a></li>
-              </ul>
+                  <li><a href="#contact">Contact</a></li>
+           </ul>
             </nav>
           </div>
         </div>
@@ -184,8 +185,45 @@
           -->
         </div>
       </div><!-- /.row -->
-
       
+       <hr class="featurette-divider">
+<!--  VK Addition     ( style="font-size:60px ; font-family:verdana")  -->
+<h1 style="font-size:70px ; font-family:verdana">&nbsp&nbsp&nbsp&nbsp&nbspContact Us</h1><br><br><br>
+<div class="col-lg-1">
+</div>
+<div class="col-lg-2">
+
+<h3>We'd love to help you !!</h3></div>
+
+<div class="col-lg-1">
+</div>
+
+
+<div class="col-lg-3">
+<form method="POST" action="https://formspree.io/individualdesires@gmail.com" style="width: 500px" >
+   <div class="ajax-hidden">
+       <div class="form-group wow fadeInUp">
+        <label class="sr-only" for="c_name">Name</label>
+        <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+       </div>
+
+       <div class="form-group wow fadeInUp" data-wow-delay=".1s">
+        <label class="sr-only" for="c_email">Email</label>
+        <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+       </div>
+
+       <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+        <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+       </div>
+                            
+       
+       <button type="submit" style="background-color:grey; "class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
+      </div>
+      <div class="ajax-response"></div>
+     </form></div>
+
+
+<!--  VK Addition   ends    -->
       <!-- /END THE FEATURETTES -->
     </div>
 
@@ -242,5 +280,7 @@ $("#terminal").animate({ scrollTop: $("#terminal")[0].scrollHeight}, 1000);
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+
   </body>
   </html>
