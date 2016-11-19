@@ -1,15 +1,15 @@
 
-	body{
+ body{
  overflow:hidden;
  height:100%;
  }
 
  html{
  height:100%;}
- .code {
-      float: right;
-  }
 
+.form-control {
+      display: inline;
+  }
 
 .container{
 overflow:hidden;
@@ -23,7 +23,6 @@ float:left;
 width:50%;
 height:100%;
 
-
 }
 .right{
     float: right;
@@ -33,14 +32,12 @@ height:100%;
     box-sizing: border-box;
 
  }
-form{
-height:100%;}
 
  textarea{
 
  width:100%;
  height:100%;
- resize:horizontal;
+ 
  
  }
  iframe{
@@ -52,6 +49,8 @@ border: none;
  }
    .d {
       width: 200px;
+	  display:inline;
+	
 
   }
     .text {
@@ -59,5 +58,7 @@ border: none;
       background-color: #e5e7e8;
       border-top: 5px solid #e5e7e8;
       padding-left: 10px;
+	  padding-top:10px;
+
   }
  
