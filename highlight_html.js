@@ -37,7 +37,14 @@ $('#theme').on('change', function() {
    
    
 });
-	
+	//language detect and redirect if language not equal to html
+	$('#language').on('change', function() {
+		var language = document.forms["input_form"]["language"].value;
+		
+		if(language!='text/html' && language !=""){
+			window.location='compilepad.php';
+		}
+	});
 	//live_preview
 	editor.on('change', function (){
 		var iframeContents=document.getElementById('iframe');

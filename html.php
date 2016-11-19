@@ -63,8 +63,21 @@
 		<hr>
 		</h1>
          <div class="left">
-            <form>
+            <form name="input_form">
 			<div class="text">
+			<div class="form-group">
+			
+				<select name="language" id="language"
+					class="form-control d" >
+					<option value="">Select Language</option>
+					<option value="text/x-csrc">C (gcc 4.4.7)</option>
+					<option value="text/x-c++src">C++ (g++ 4.4.7)</option>
+					<option value="application/x-httpd-php">PHP (5.4.40)</option>
+					<option value="text/html" selected>HTML</option>
+					<!--<option value="text/x-java">Java(OpenJDK 1.7.0_111)</option>
+					<option value="application/x-httpd-php">PHP</option>-->
+					<option value="text/x-python">Python (2.6.6)</option>
+				</select>
 			<select id="theme" class="form-control d">
     <option>Select Theme</option>
     <option value="3024-day">3024-day</option>
@@ -114,7 +127,8 @@
     <option value="zenburn">zenburn</option>
 </select>
 </div>
-               <textarea class="grid highlight" id="input" name="code"></textarea>
+</div>
+               <textarea class="highlight" id="input" name="code"></textarea>
             </form>
          </div>
          <div class="right">
