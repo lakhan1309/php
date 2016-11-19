@@ -3,9 +3,7 @@ body{
 	overflow:scroll;
 	-webkit-box-sizing:border-box;
 }
-.form-control {
-      display: inline;
-  }
+
   textarea {
       border-style: solid;
   }
