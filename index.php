@@ -1,12 +1,7 @@
 <?php include_once("analyticstracking.php") ?>
 <!DOCTYPE html>
 <html lang="en">
-<head><style>
-input {
-
-    color: black;
-}
-</style>
+<head>
   <meta name="msvalidate.01" content="3D0E84C1134A4BAC59BB32FB3B982CE4" />
 <meta charset="utf-8">
 <meta name="description" content="Compile Pad is an online compiler/interpreter,  where you can run your C | C++ | HTML | Python | PHP code.You can select different types of themes like 3024-day | 3024-night | abcdef | ambiance | base16-dark">
