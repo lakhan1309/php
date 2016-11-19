@@ -29,7 +29,12 @@ body{
   .code {
       float: right;
   }
-
+   .fullscreen{
+	  float:right;
+	  padding-right:10px;
+	  padding-top:3px;
+	  color:grey;
+  }
 @media only screen and (min-width : 240px) and (max-width : 768px) {
 
 	.setting{

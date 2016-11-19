@@ -26,6 +26,13 @@ $(document).ready(function() {
             }
         }
     });
+	
+	//fullscreen 
+	$('#fullscreen').click(function(){
+		editor.setOption("fullScreen",!editor.getOption("fullScreen"));
+	});
+	
+	
       //language change
     $('#language').on('change', function() {
 		var default_code;

@@ -105,6 +105,8 @@
 					<span class="glyphicon glyphicon-cog glyph"></span>Compile
 					& Run
 				</button>
+				<span id="fullscreen" data-toogle="tooltip" title="Fullscreen" class="fullscreen"><i class="icon-fullscreen fa-2x"></i></span>
+
 			</div>
 
 			<textarea class="form-control highlight" id="input" name="code"></textarea>
