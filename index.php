@@ -28,6 +28,17 @@
   <script src="jcubic/js/jquery.terminal.min.js"></script>
   <script src="js/smoothscroll.js"></script>
   <link href="jcubic/css/jquery.terminal.css" rel="stylesheet"/>
+  <!-- Hotjar Tracking Code for http://compilepad-webide.rhcloud.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+       h._hjSettings={hjid:339682,hjsv:5};
+       a=o.getElementsByTagName('head')[0];
+       r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+       a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 
 </head>
 
