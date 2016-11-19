@@ -9,6 +9,7 @@ body{
   }
   .d {
       width: 200px;
+	  display:inline;
   }
     .text {
       border-bottom: 5px solid #e5e7e8;
