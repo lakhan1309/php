@@ -1,4 +1,4 @@
-<?php header('Refresh:4; URL=http://localhost/master/index.php');?>
+<?php header('Refresh:4; URL=/index.php');?>
 <html>
 <head>
 
