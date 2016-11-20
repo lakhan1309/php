@@ -216,6 +216,7 @@
        <button type="submit" style="background-color:grey; "class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
       </div>
       <div class="ajax-response"></div>
+  <input type="hidden" name="_next" value="thanks.php" />
      </form></div>
 
 
