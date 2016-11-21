@@ -11,7 +11,7 @@
    echo '</script>';
    echo "<meta http-equiv='refresh' content='0;url=index.php'>";
    }
-   else if($_SESSION['sent']) && !empty($_SESSION['sent'])){
+   else if(isset($_SESSION['sent']) && !empty($_SESSION['sent'])){
    	
    	$mssg=$_SESSION['sent'];
    	
