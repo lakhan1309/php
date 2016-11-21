@@ -1,0 +1,24 @@
+/*
+ * Hi,
+ * 
+ * The folks at CompilePad have built the online compiler/interpreter
+ * from scratch. The editor supports collaboration in real-time - which
+ * means you can see the code being edited live by others. It's like the
+ * Google doc for code!
+ * 
+ * The backend is written in PHP. 
+ *
+ * All the codes are run on a separate openshift server in a sandboxed
+ * environment. This means it's almost impossible to compromise the server,
+ * If you come across any situation where it's not so, please let us know.
+ *
+ * We will add more languages and continue improving it in future,
+ * and would love to hear your suggestions and feeback on it. Feel free
+ * to drop an email at compilepad@gmail.com or contact us at the bottom
+ * of this page.
+ *
+ *
+ *
+ * P.S. If you feel this can be of some use to you, please like
+ * and share it. :)
+ */

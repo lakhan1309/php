@@ -1,0 +1,458 @@
+/*
+ * Globals
+ */
+
+ /* Links */
+ a,
+ a:focus,
+ a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+ html,
+ body {
+  height: 100%;
+  background-color: #333;
+  
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+ 
+ .masthead{
+  background-color: #333;
+  z-index: 10;
+ }
+ .masthead-brand {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  
+
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  margin-top: 0px;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+    margin-left: 70px;
+  }
+  .masthead-nav {
+    float: right;
+    margin-top: -10px;
+  }
+
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+ 
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+ .cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.form{
+	
+	width:250px;
+	margin:0 auto;
+	margin-top:10px;
+	
+	
+}
+/*
+ * Footer
+ */
+
+ .mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+/*
+ * Terminal Topbar
+ */
+#terminal_outer{
+    width:270px;
+    height: 200px; 
+    position:relative; 
+    margin: 0 auto;
+
+}
+#terminal{
+    overflow-y:auto;
+    height: inherit;
+    text-align: left;
+    background-color: black;
+}
+#toolbar {
+    width: 100%;
+    height: 25px;
+    background: grey;
+    border-radius: 5px 5px 0 0;
+    background: #cfcfcf;
+    background: -moz-linear-gradient(top,#cfcfcf 0%,#a8a8a8 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#cfcfcf),color-stop(100%,#a8a8a8));
+    background: -webkit-linear-gradient(top,#cfcfcf 0%,#a8a8a8 100%);
+    background: -o-linear-gradient(top,#cfcfcf 0%,#a8a8a8 100%);
+    background: -ms-linear-gradient(top,#cfcfcf 0%,#a8a8a8 100%);
+    background: linear-gradient(top,#cfcfcf 0%,#a8a8a8 100%);
+    -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.5) inset,0px 1px 0px #515151;
+    -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.5) inset,0px 1px 0px #515151;
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.5) inset,0px 1px 0px #515151;
+}
+
+#toolbar .top {
+    float: left;
+    width: 100%;
+    height: 23px;
+}
+
+#toolbar .bottom {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+#toolbar #lights {
+    float: left;
+    position: relative;
+    top: 6px;
+    left: 7px;
+}
+
+.light {
+    float: left;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.5),0px 0px 3px #000 inset;
+    -moz-box-shadow: 0px 1px 0px rgba(255,255,255,0.5),0px 0px 3px #000 inset;
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.5),0px 0px 3px #000 inset;
+    overflow: hidden;
+}
+
+
+.light .shine {
+    width: 4px;
+    height: 3px;
+    border-radius: 10px;
+    background: -moz-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background-image: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(255,255,255,1)),color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: -o-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: -ms-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+.light .glow {
+    width: 14px;
+    height: 8px;
+    background-image: -webkit-gradient(radial,center bottom,0,center center,5,from(rgba(255,255,255,0.75)),to(rgba(255,255,255,0)));
+    background: 0px 0px -moz-radial-gradient(bottom,cover,rgba(255,255,255,0.70) 0%,rgba(255,255,255,0) 80%);
+}
+
+.red {
+    background: #f41b16;
+    background: -moz-linear-gradient(top,#f41b16 0%,#fc7471 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f41b16),color-stop(100%,#fc7471));
+    background: -webkit-linear-gradient(top,#f41b16 0%,#fc7471 100%);
+    background: -o-linear-gradient(top,#f41b16 0%,#fc7471 100%);
+    background: -ms-linear-gradient(top,#f41b16 0%,#fc7471 100%);
+    background: linear-gradient(top,#f41b16 0%,#fc7471 100%);
+}
+
+.red .shine {
+    position: relative;
+    top: -21px;
+    left: 5px;
+}
+
+.red .glow {
+    position: relative;
+    top: -20px;
+}
+
+.red .glyph {
+    position: relative;
+    top: -5px;
+    left: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9b3a36;
+    z-index: 50;
+    opacity: 0;
+}
+
+.yellow {
+    background: #f4a316;
+    background: -moz-linear-gradient(left,#f4a316 0%,#fcc371 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0%,#f4a316),color-stop(100%,#fcc371));
+    background: -webkit-linear-gradient(left,#f4a316 0%,#fcc371 100%);
+    background: -o-linear-gradient(left,#f4a316 0%,#fcc371 100%);
+    background: -ms-linear-gradient(left,#f4a316 0%,#fcc371 100%);
+    background: linear-gradient(left,#f4a316 0%,#fcc371 100%);
+    margin: 0px 7px;
+}
+
+
+.yellow .shine {
+    position: relative;
+    top: -21px;
+    left: 5px;
+}
+
+.yellow .glow {
+    position: relative;
+    top: -20px;
+}
+
+.yellow .glyph {
+    position: relative;
+    top: -5px;
+    left: 3px;
+    font-size: 24px;
+    color: #854322;
+    z-index: 50;
+    opacity: 0;
+    -webkit-transform: scaleY(1.5) scaleX(1.3);
+}
+
+.green {
+    background: #4cae2e;
+    background: -moz-linear-gradient(top,#4cae2e 0%,#dafc71 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#4cae2e),color-stop(100%,#dafc71));
+    background: -webkit-linear-gradient(top,#4cae2e 0%,#dafc71 100%);
+    background: -o-linear-gradient(top,#4cae2e 0%,#dafc71 100%);
+    background: -ms-linear-gradient(top,#4cae2e 0%,#dafc71 100%);
+    background: linear-gradient(top,#4cae2e 0%,#dafc71 100%);
+}
+
+
+.green .shine {
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+.green .glow {
+    position: relative;
+    top: -20px;
+}
+
+.green .glyph {
+    position: relative;
+    top: -5px;
+    left: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #25571d;
+    z-index: 50;
+    opacity: 0;
+}
+
+@-moz-document url-prefix() {
+    .red .glyph {
+        position: relative;
+        top: -5px;
+    }
+
+    .yellow .glyph {
+        top: -4px;
+        left: 3px;
+    }
+
+    .green .glyph {
+        position: relative;
+        top: -4px;
+    }
+}
+
+#title {
+    float: left;
+    position: relative;
+    top: 6px;
+    width: 40%;
+    left: 40%;
+    margin-left: -75px;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 14px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.5);
+    line-height: 14px;
+    color: black;
+}
+
+
+/*
+ * Affix and center
+ */
+
+ @media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    z-index: 10; /* Must be percentage or pixels for horizontal alignment */
+  }
+  #terminal_outer{
+    width: 500px;
+    height: 250px;
+  }
+  .form{
+	  width:450px;
+	  margin:0 auto;
+	  margin-top:10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+  #terminal_outer{
+    width: 600px;
+    height: 300px;
+  }
+  .form{
+	  width:500px;
+  }
+}
