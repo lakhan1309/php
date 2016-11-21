@@ -24,7 +24,38 @@
 <link rel="stylesheet" href="design.css">
 <link rel="stylesheet" href="codemirror-5.16.0/addon/hint/show-hint.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
+<script src="codemirror-5.16.0/lib/codemirror.js"></script>
+<script src="highlight.js"></script>
+
+<script src="codemirror-5.16.0/addon/selection/active-line.js"></script>
+<script src="codemirror-5.16.0/addon/edit/closebrackets.js"></script>
+<script src="codemirror-5.16.0/addon/edit/matchbrackets.js"></script>
+<script src="codemirror-5.16.0/addon/edit/matchtags.js"></script>
+<script src="codemirror-5.16.0/mode/javascript/javascript.js"></script>
+<script src="codemirror-5.16.0/addon/fold/xml-fold.js"></script>
+<script src="codemirror-5.16.0/mode/xml/xml.js"></script>
+<script src="codemirror-5.16.0/mode/clike/clike.js"></script>
+<script src="codemirror-5.16.0/mode/htmlmixed/htmlmixed.js"></script>
+<script src="codemirror-5.16.0/mode/css/css.js"></script>
+<script src="codemirror-5.16.0/mode/vbscript/vbscript.js"></script>
+<script src="codemirror-5.16.0/mode/php/php.js"></script>
+<script src="codemirror-5.16.0/mode/python/python.js"></script>
+<script src="codemirror-5.16.0/addon/hint/show-hint.js"></script>
+<script src="codemirror-5.16.0/addon/hint/css-hint.js"></script>
+<script src="codemirror-5.16.0/addon/hint/html-hint.js"></script>
+<script src="codemirror-5.16.0/addon/hint/javascript-hint.js"></script>
+<script src="codemirror-5.16.0/addon/hint/xml-hint.js"></script>
+<script src="codemirror-5.16.0/addon/hint/anyword-hint.js"></script>
+<script src="codemirror-5.16.0/addon/display/fullscreen.js"></script>
+<script src="codemirror-5.16.0/addon/edit/closetag.js"></script>
+<script src="codemirror-5.16.0/addon/search/search.js"></script>
+<script src="codemirror-5.16.0/addon/search/searchcursor.js"></script>
+<script src="codemirror-5.16.0/addon/search/match-highlighter.js"></script>
+<script src="codemirror-5.16.0/addon/search/jump-to-line.js"></script>
+<script src="codemirror-5.16.0/addon/dialog/dialog.js"></script>
 
 </head>
 <body>
@@ -42,7 +73,7 @@
 			<div class="text">
 				<select name="language" id="language"
 					class="form-control d">
-					<option value="Select Language" selected>Select Language</option>
+					<option value="" selected>Select Language</option>
 					<option value="text/x-csrc">C (gcc 4.4.7)</option>
 					<option value="text/x-c++src">C++ (g++ 4.4.7)</option>
 					<option value="application/x-httpd-php">PHP (5.4.40)</option>
@@ -128,38 +159,6 @@
 	
 
 	</div>
-	<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-
-<script src="codemirror-5.16.0/lib/codemirror.js"></script>
-<script src="highlight.js"></script>
-
-<script src="codemirror-5.16.0/addon/selection/active-line.js"></script>
-<script src="codemirror-5.16.0/addon/edit/closebrackets.js"></script>
-<script src="codemirror-5.16.0/addon/edit/matchbrackets.js"></script>
-<script src="codemirror-5.16.0/addon/edit/matchtags.js"></script>
-<script src="codemirror-5.16.0/mode/javascript/javascript.js"></script>
-<script src="codemirror-5.16.0/addon/fold/xml-fold.js"></script>
-<script src="codemirror-5.16.0/mode/xml/xml.js"></script>
-<script src="codemirror-5.16.0/mode/clike/clike.js"></script>
-<script src="codemirror-5.16.0/mode/htmlmixed/htmlmixed.js"></script>
-<script src="codemirror-5.16.0/mode/css/css.js"></script>
-<script src="codemirror-5.16.0/mode/vbscript/vbscript.js"></script>
-<script src="codemirror-5.16.0/mode/php/php.js"></script>
-<script src="codemirror-5.16.0/mode/python/python.js"></script>
-<script src="codemirror-5.16.0/addon/hint/show-hint.js"></script>
-<script src="codemirror-5.16.0/addon/hint/css-hint.js"></script>
-<script src="codemirror-5.16.0/addon/hint/html-hint.js"></script>
-<script src="codemirror-5.16.0/addon/hint/javascript-hint.js"></script>
-<script src="codemirror-5.16.0/addon/hint/xml-hint.js"></script>
-<script src="codemirror-5.16.0/addon/hint/anyword-hint.js"></script>
-<script src="codemirror-5.16.0/addon/display/fullscreen.js"></script>
-<script src="codemirror-5.16.0/addon/edit/closetag.js"></script>
-<script src="codemirror-5.16.0/addon/search/search.js"></script>
-<script src="codemirror-5.16.0/addon/search/searchcursor.js"></script>
-<script src="codemirror-5.16.0/addon/search/match-highlighter.js"></script>
-<script src="codemirror-5.16.0/addon/search/jump-to-line.js"></script>
-<script src="codemirror-5.16.0/addon/dialog/dialog.js"></script>
+		
 </body>
 </html>
